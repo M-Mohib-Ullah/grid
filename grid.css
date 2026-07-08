@@ -1,0 +1,62 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    padding:20px;
+    font-family:Arial, sans-serif;
+    background:#272626;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    gap:14px;
+}
+
+.box{
+    background:yellow;
+    color:rgb(198, 196, 196);
+    font-size:30px;
+    text-align:center;
+    padding:20px 0;
+}
+
+
+.box1{
+    grid-column:span 12;
+}
+
+
+.box2,
+.box3{
+    grid-column:span 6;
+}
+
+
+.box4,
+.box5,
+.box6{
+    grid-column:span 4;
+}
+
+
+.box7,
+.box8,
+.box9,
+.box10{
+    grid-column:span 3;
+}
+
+
+.box11,
+.box12,
+.box13,
+.box14,
+.box15,
+.box16{
+    grid-column:span 2;
+}
+
